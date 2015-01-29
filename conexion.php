@@ -2,7 +2,7 @@
 	function conexion()
 	{
 
-		if (!($link = mysql_connect("192.168.1.201","root","mysqlroot"))) 
+		if (!($link = mysql_connect("192.168.1.201","root",""))) 
   		 { 
      		echo "Error conectando a la base de datos."; 
 	      	exit(); 
